@@ -1,0 +1,170 @@
+#carousel ul li img {
+  background-color: black;
+}
+.menu {
+  color: #ffffff;
+  background-color: #000000;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+.menu:hover {
+  background-color: #ffffff;
+}
+.main-logo {
+  position: absolute;
+  top: 150px;
+  left: 110px;
+  z-index: 1;
+}
+.main-logo h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  padding: 8px;
+}
+.main-logo h2 {
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.nav-logo a {
+  padding: 25px;
+  padding-bottom: 40px;
+  word-spacing: 7px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+  position: relative;
+}
+.nav-logo h6 {
+  padding-left: 45px;
+  letter-spacing: 2px;
+  font-style: italic;
+  position: relative;
+}
+.nav-logo a:hover {
+  color: #035edd;
+  transition: color 2s ease-in-out;
+}
+.nav-logo a::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-top: 3px #ffffff solid;
+  border-left: 3px #ffffff solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav-logo a::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-bottom: 3px #ffffff solid;
+  border-right: 3px #ffffff solid;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+li a {
+  margin: 10px;
+  font-size: 1rem;
+}
+li a i {
+  margin: 0px 8px;
+}
+
+.parallex-header h3,
+.parallex-header h4 {
+  font-size: 1rem;
+  font-style: italic;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  word-spacing: 5px;
+}
+/*contact page*/
+.contact-content em,
+.portfolio-content em {
+  color: black;
+  padding: 15px;
+  font-size: 2.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+}
+.contact-content em::before,
+.portfolio-content em::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-top: 4px #0ac2ff solid;
+  border-left: 4px #0ac2ff solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact-content em::after,
+.portfolio-content em::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-bottom: 4px #0ac2ff solid;
+  border-right: 4px #0ac2ff solid;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.contact-body {
+  margin: 10px;
+}
+.contact-body i {
+  color: #003052;
+}
+.msg-form input,
+.msg-form button {
+  border-radius: 8px;
+}
+/*....Portfolio Page..*/
+.sub-nav {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-content {
+  color: #003052;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: oblique;
+  padding: 5px;
+  width: 90vw;
+}
+
+@media screen and (min-width: 770px) {
+  .main-logo {
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    z-index: 1;
+  }
+  .main-logo h1 {
+    color: #000000;
+    font-size: 3.5rem;
+    letter-spacing: 10px;
+  }
+  .main-logo h2 {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 10px;
+  }
+}
